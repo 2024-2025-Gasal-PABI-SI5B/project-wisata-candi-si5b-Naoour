@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:wisata_candi/models/candi.dart';
 
 class Detailscreen extends StatelessWidget {
-  const Detailscreen({super.key});
+  final Candi candi;
+  
+  const Detailscreen({super.key, required this.candi});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [],
-      )
-    );
+        body: Column(
+      children: [],
+    ));
   }
 }
