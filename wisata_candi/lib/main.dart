@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:wisata_candi/data/candi_data.dart';
-import 'package:wisata_candi/screens/detail.screen.dart';
+import 'package:wisata_candi/screens/detail_screen.dart';
 
 void main() {
   runApp(const MainApp());
