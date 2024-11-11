@@ -43,10 +43,18 @@ class Detailscreen extends StatelessWidget {
           ),
           //DETAIL INFO
           Padding(
-            padding: EdgeInsets.symmetric(horizontal: 16),
+            padding: const EdgeInsets.symmetric(horizontal: 16),
             child: Column(
               children: [
                 //Info Atas
+                Row(
+                  children: [
+                    Text(candi.name),
+                    IconButton(
+                      onPressed: () {},
+                      icon: const Icon(Icons.favorite_border))
+                  ],
+                )
                 //Info Tengah
                 //Info Bawah
               ],
